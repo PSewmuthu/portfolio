@@ -1,0 +1,196 @@
+{
+	"personal": {
+		"name": "Pasindu Sewmuthu",
+		"title": "AI Engineer | Machine Learning Operations & System Researcher",
+		"tagline": "Architecting intelligent, scalable, and human-centered AI systems that solve real-world complexities.",
+		"email": "apsewmuthu@gmail.com",
+		"linkedin": "https://www.linkedin.com/in/psewmuthu/",
+		"github": "https://github.com/PSewmuthu",
+		"kaggle": "https://www.kaggle.com/psewmuthu",
+		"huggingface": "https://huggingface.co/PSewmuthu",
+		"portfolio": "https://psewmuthu.github.io/portfolio/",
+		"image": "/assets/profile.jpg",
+		"cv_url": "/assets/P.S. Abewickrama Singhe - AI Engineer Intern - CV.pdf",
+		"site_metadata": {
+			"title": "P.Sewmuthu | AI Engineer Portfolio",
+			"favicon": "/favicon.png"
+		}
+	},
+	"about": {
+		"summary": "I am a BSc. (Hons) in Computer Science and Technology undergraduate with a strong focus on Artificial Intelligence, Machine Learning, and Computer Vision. My academic and project work centers on real-time AI systems, multimodal learning, and human-centered AI applications. I am especially interested in building scalable, low-latency AI solutions that integrate vision, speech, and language understanding.",
+		"goals": "I actively pursue research-oriented development, hands-on system design, and industry-aligned engineering practices. My long-term goal is to work as an AI Engineer at a world-class technology company while contributing meaningful research and open-source systems."
+	},
+	"skills": [
+		{
+			"category": "Artificial Intelligence & Machine Learning",
+			"items": [
+				"Deep Learning (CNNs, RNNs, Transformers)",
+				"Computer Vision",
+				"Natural Language Processing (NLP)",
+				"Multimodal AI Systems",
+				"Large Language Models (LLMs)",
+				"Fine Tuning & Prompt Engineering",
+				"Applied Machine Learning"
+			]
+		},
+		{
+			"category": "Programming & Frameworks",
+			"items": [
+				"Python",
+				"TensorFlow",
+				"PyTorch",
+				"FastAPI",
+				"Django",
+				"OpenCV",
+				"MediaPipe"
+			]
+		},
+		{
+			"category": "Web & System Development",
+			"items": [
+				"React.js",
+				"RESTful API Design",
+				"Real-time Streaming Architectures",
+				"Frontend–Backend Integration",
+				"Database Management"
+			]
+		},
+		{
+			"category": "Data & Research",
+			"items": [
+				"Dataset Curation & Feature Engineering",
+				"Model Evaluation (WER, Accuracy, Latency, Error)",
+				"Research Paper Analysis & Summarization"
+			]
+		},
+		{
+			"category": "Tools & Platforms",
+			"items": [
+				"Git & GitHub",
+				"Linux",
+				"Kaggle",
+				"Google Colab",
+				"Hugging Face"
+			]
+		}
+	],
+	"projects": [
+		{
+			"id": "emosign",
+			"title": "EmoSign – Emotion-Aware Bidirectional Sign Language Translation",
+			"type": "Mini Project | Research-Oriented System",
+			"description": "A real-time, AI-powered, bidirectional sign language translation system that supports sign-to-text/speech and speech-to-sign translation while preserving emotional context.",
+			"highlights": [
+				"Real-time sign language recognition and translation",
+				"Emotion-aware text generation and speech synthesis",
+				"Multilingual and scalable architecture",
+				"Bidirectional pipeline (Sign ↔ Speech/Text)"
+			],
+			"tags": [
+				"Multimodal AI",
+				"TensorFlow",
+				"PyTorch",
+				"FastAPI",
+				"Computer Vision"
+			],
+			"image": "/assets/projects/images/project-emosign.jpg",
+			"video": "/assets/projects/videos/demo-emosign.mp4",
+			"link": "https://github.com/PSewmuthu/EmoSign"
+		},
+		{
+			"id": "cifar10-vehicle",
+			"title": "CIFAR-10 Vehicle Image Classification",
+			"type": "Computer Vision Project",
+			"description": "An image classification system built using custom CNNs and transfer learning (MobileNetV2) to classify vehicle-related categories from the CIFAR-10 dataset.",
+			"highlights": [
+				"Custom CNN and MobileNetV2 transfer learning",
+				"Model fine-tuning and performance comparison",
+				"End-to-end deep learning workflow",
+				"Published reproducible experiments on GitHub"
+			],
+			"tags": [
+				"Computer Vision",
+				"Deep Learning",
+				"TensorFlow",
+				"Keras",
+				"CNN"
+			],
+			"image": "/assets/projects/images/project-cifar10.png",
+			"link": "https://github.com/PSewmuthu/CIFAR-10_Vehicle_Classification"
+		},
+		{
+			"id": "django-blog",
+			"title": "Django Blog Web Application",
+			"type": "Full-Stack Web Development Project",
+			"description": "A feature-rich blog platform developed using Django and the MVT architecture, supporting content management and user interaction.",
+			"highlights": [
+				"CRUD functionality with Django ORM",
+				"Tagging, categorization, and comments",
+				"Clean MVT-based architecture",
+				"Authentication-ready design"
+			],
+			"tags": ["Django", "Python", "Web Development", "SQL"],
+			"image": "/assets/projects/images/project-django-blog.png",
+			"link": "https://github.com/PSewmuthu/Django_Blog_Website"
+		},
+		{
+			"id": "polynomial-linked-list",
+			"title": "Polynomial Representation Using Linked Lists",
+			"type": "Data Structures & Algorithms Project",
+			"description": "An implementation of polynomial operations such as addition and subtraction using linked lists in C, demonstrating strong fundamentals in data structures.",
+			"highlights": [
+				"Linked list–based polynomial representation",
+				"Efficient algorithmic operations",
+				"Clear memory management",
+				"Strong DSA foundations"
+			],
+			"tags": ["C Programming", "Data Structures", "Algorithms"],
+			"image": "/assets/projects/images/project-linked-list.png",
+			"link": "https://github.com/PSewmuthu/Polynomial_Representation_using_Linked_List"
+		}
+	],
+	"experience": [
+		{
+			"role": "Freelance Web Scraper",
+			"company": "Fiverr",
+			"duration": "February 2022 – January 2025",
+			"description": "Worked as a freelance web scraping developer, delivering customized data extraction solutions for international clients.",
+			"achievements": [
+				"Designed automated web scraping solutions using Python",
+				"Handled complex dynamic content and rate limits",
+				"Cleaned and validated datasets in various formats"
+			]
+		},
+		{
+			"role": "Advanced Level Programme (RSLUP 2.0)",
+			"company": "Random Software Undergraduate Programme",
+			"duration": "August 2023 – April 2024",
+			"description": "Pre-Internship programme focusing on full-stack system development.",
+			"achievements": [
+				"ASP.NET Core & Angular",
+				"MSSQL Server",
+				"Software engineering best practices"
+			]
+		}
+	],
+	"achievements": [
+		"LeetCode 50 Days Badge 2024 (Top 6.9%)",
+		"Participant – IdeaForge Inter-University Ideathon (Team: Flefficle)",
+		"Certificate – RSLUP 2.0 Advanced Level Completion",
+		"Build an AI That Sees: Image Recognition – Google Developer Groups",
+		"Postman API Fundamentals Student Expert – Canvas Credentials (Badgr)"
+	],
+	"career_goals": {
+		"primary": "AI Engineer specializing in Computer Vision, Multimodal AI, NLP, Robotics, Generative AI, and BCI related AI systems.",
+		"short_term": [
+			"Secure an AI Engineer / AI Research Intern role",
+			"Work on real-world AI systems (vision, language, speech)",
+			"Contribute to applied research and open-source"
+		],
+		"long_term": [
+			"Become a highly skilled AI Engineer in high-impact systems",
+			"Specialize in multimodal, generative, and brain-computing AI",
+			"Work at a world-class technology company"
+		]
+	}
+}
