@@ -98,6 +98,35 @@
 			"link": "https://github.com/PSewmuthu/EmoSign"
 		},
 		{
+			"id": "ai-intelligent-cctv-surveillance",
+			"title": "AI-Powered Intelligent CCTV Surveillance System",
+			"type": "Computer Vision System | AI Analytics Platform",
+			"description": "An advanced AI-driven surveillance system designed to analyze and interpret CCTV video streams in real time. The platform integrates computer vision, deep learning, and multi-camera tracking techniques to detect, track, and analyze people, vehicles, and incidents across large surveillance environments. The system reconstructs movement trajectories across multiple cameras, predicts possible paths in areas without camera coverage, and enables efficient search and analysis of historical surveillance data.",
+			"highlights": [
+				"Real-time detection and tracking of people and vehicles from multiple CCTV streams",
+				"Cross-camera object re-identification to follow the same entity across different locations",
+				"Movement trajectory reconstruction and visualization using spatial mapping",
+				"Path prediction in blind-spot regions where cameras are not available",
+				"AI-based incident detection including abnormal behavior and restricted-area intrusion",
+				"Interactive map visualization showing movement paths and activity heatmaps",
+				"Historical video search using object attributes and event-based queries",
+				"Scalable architecture capable of handling distributed surveillance networks"
+			],
+			"tags": [
+				"Computer Vision",
+				"Deep Learning",
+				"Object Detection",
+				"Multi-Camera Tracking",
+				"Re-Identification",
+				"Trajectory Prediction",
+				"OpenCV",
+				"PyTorch",
+				"FastAPI",
+				"AI Analytics"
+			],
+			"image": "/assets/projects/images/project-cctv-ai-system.png"
+		},
+		{
 			"id": "cifar10-vehicle",
 			"title": "CIFAR-10 Vehicle Image Classification",
 			"type": "Computer Vision Project",
