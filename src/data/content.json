@@ -127,6 +127,31 @@
 			"image": "/assets/projects/images/project-cctv-ai-system.png"
 		},
 		{
+			"id": "sherlock-holmes-rag",
+			"title": "Sherlock Holmes RAG System",
+			"type": "LLM / Retrieval-Augmented Generation Project",
+			"description": "An AI-powered Retrieval-Augmented Generation (RAG) system that allows users to ask natural language questions about the 62 original Sherlock Holmes stories written by Arthur Conan Doyle. The system retrieves relevant story passages and generates context-aware answers using Gemini LLM.",
+			"highlights": [
+				"RAG pipeline implemented using LangChain",
+				"Semantic search over the 62 original Sherlock Holmes stories",
+				"FastAPI-based REST API for AI question answering",
+				"LLM-powered responses using Gemini models",
+				"Automated data extraction from Arthur Conan Doyle Encyclopedia"
+			],
+			"tags": [
+				"RAG",
+				"LLM",
+				"LangChain",
+				"FastAPI",
+				"Python",
+				"Vector Search",
+				"AI",
+				"NLP"
+			],
+			"image": "/assets/projects/images/project-sherlock-holmes-rag.png",
+			"link": "https://github.com/PSewmuthu/sherlock-holmes-rag-system"
+		},
+		{
 			"id": "cifar10-vehicle",
 			"title": "CIFAR-10 Vehicle Image Classification",
 			"type": "Computer Vision Project",
