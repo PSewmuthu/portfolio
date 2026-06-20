@@ -60,6 +60,7 @@
 			"items": [
 				"Dataset Curation & Feature Engineering",
 				"Model Evaluation (WER, Accuracy, Latency, Error)",
+				"Analytics & Visualization",
 				"Research Paper Analysis & Summarization"
 			]
 		},
@@ -125,6 +126,62 @@
 				"AI Analytics"
 			],
 			"image": "/assets/projects/images/project-cctv-ai-system.png"
+		},
+		{
+			"id": "resume-parser",
+			"title": "Resume Parser – NLP-Powered Resume Information Extraction System",
+			"type": "NLP Project | Information Extraction System",
+			"description": "A sophisticated NLP-powered resume parsing system that automatically extracts and structures information from resumes in PDF, DOCX, and TXT formats into machine-readable JSON output using entity recognition, pattern matching, and intelligent text processing.",
+			"highlights": [
+				"Multi-format resume processing (PDF, DOCX, TXT)",
+				"NLP-based entity extraction using spaCy",
+				"Automatic extraction of education, experience, skills, and projects",
+				"Structured JSON generation for downstream applications",
+				"Advanced date parsing and profile link extraction",
+				"OCR text cleaning and section-aware document analysis"
+			],
+			"tags": [
+				"Natural Language Processing",
+				"Natural Language Processing",
+				"Python",
+				"Information Extraction",
+				"Regular Expressions",
+				"JSON",
+				"Text Processing",
+				"Data Engineering"
+			],
+			"image": "/assets/projects/images/project-resume-parser.png",
+			"link": "https://github.com/PSewmuthu/resume-parser"
+		},
+		{
+			"id": "market-demand-forecast",
+			"title": "Market Demand Trend Analysis – AI-Powered Job Market Forecasting System",
+			"type": "Data Science Project | Forecasting & Market Intelligence Platform",
+			"description": "An end-to-end data analytics and forecasting pipeline designed to identify emerging job roles, in-demand skills, and high-growth industries by combining job market data, search-interest signals, NLP processing, and time-series forecasting to support recruitment and workforce planning decisions.",
+			"highlights": [
+				"Multi-source job market intelligence pipeline",
+				"NLP-based extraction of skills, roles, and industries",
+				"Demand forecasting using Prophet, SARIMAX, and LSTM",
+				"Scenario analysis with best-case, worst-case, and likely outcomes",
+				"Backtesting and model validation using forecasting metrics",
+				"Automated generation of 17 analytical visualizations"
+			],
+			"tags": [
+				"Data Science",
+				"Machine Learning",
+				"Time Series Forecasting",
+				"LSTM",
+				"Prophet",
+				"SARIMAX",
+				"Natural Language Processing",
+				"Python",
+				"Market Intelligence",
+				"Data Analytics",
+				"Visualization",
+				"Recruitment Analytics"
+			],
+			"image": "/assets/projects/images/project-market-demand-forecast.png",
+			"link": "https://github.com/PSewmuthu/market_demand_forecaster"
 		},
 		{
 			"id": "sherlock-holmes-rag",
@@ -224,6 +281,18 @@
 				"ASP.NET Core & Angular",
 				"MSSQL Server",
 				"Software engineering best practices"
+			]
+		},
+		{
+			"role": "Data Science Intern",
+			"company": "Gamage Recruiters (Pvt) Ltd",
+			"duration": "May 2026 – Now",
+			"description": "Working on various individual and team data science projects, focused on building ML models and analyzing data.",
+			"achievements": [
+				"Python, TensorFlow & Modern ML Frameworks",
+				"Data Pipeline Engineering & Analytics",
+				"Time Series Forecasting & NLP",
+				"Data Analysis, Visualization & Research"
 			]
 		}
 	],
