@@ -123,7 +123,7 @@
 				"Docker",
 				"GitHub Actions"
 			],
-			"image": "/assets/projects/images/project-motosignal-ai.jpg",
+			"image": "/assets/projects/images/project-motosignal-ai.png",
 			"link": "https://github.com/PSewmuthu/motosignal-ai"
 		},
 		{
@@ -175,7 +175,7 @@
 				"Groq API",
 				"Python"
 			],
-			"image": "/assets/projects/images/project-ai-resume-screener.jpg",
+			"image": "/assets/projects/images/project-ai-resume-screener.png",
 			"live": "https://resume-screener-llm.streamlit.app/",
 			"link": "https://github.com/PSewmuthu/AI-Resume-Screener"
 		},
