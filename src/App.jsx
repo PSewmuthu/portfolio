@@ -372,6 +372,22 @@ function App() {
 											<span>Play Demo</span>
 										</button>
 									)}
+									{project.live && (
+										<button
+											className="play-demo-btn"
+											onClick={() =>
+												window.open(
+													project.live,
+													"_blank",
+													"noopener,noreferrer",
+												)
+											}
+											aria-label="Open live website"
+										>
+											<ExternalLink size={24} fill="currentColor" />
+											<span>Open Live Website</span>
+										</button>
+									)}
 									<div className="project-type-overlay">{project.type}</div>
 								</div>
 								<div className="project-content">

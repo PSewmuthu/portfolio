@@ -10,7 +10,7 @@
 		"huggingface": "https://huggingface.co/PSewmuthu",
 		"portfolio": "https://psewmuthu.github.io/portfolio/",
 		"image": "/assets/profile.jpg",
-		"cv_url": "/assets/P.S. Abewickrama Singhe - AI Engineer Intern - CV.pdf",
+		"cv_url": "/assets/PS_Abewickrama Singhe_CV.pdf",
 		"site_metadata": {
 			"title": "P.Sewmuthu | AI Engineer Portfolio",
 			"favicon": "/favicon.png"
@@ -30,7 +30,10 @@
 				"Multimodal AI Systems",
 				"Large Language Models (LLMs)",
 				"Fine Tuning & Prompt Engineering",
-				"Applied Machine Learning"
+				"Applied Machine Learning",
+				"Retrievel-Augmented Generation (RAG)",
+				"Generative AI",
+				"Agentic AI Systems"
 			]
 		},
 		{
@@ -42,7 +45,8 @@
 				"FastAPI",
 				"Django",
 				"OpenCV",
-				"MediaPipe"
+				"MediaPipe",
+				"YOLO"
 			]
 		},
 		{
@@ -51,7 +55,7 @@
 				"React.js",
 				"RESTful API Design",
 				"Real-time Streaming Architectures",
-				"Frontend–Backend Integration",
+				"Frontend-Backend Integration",
 				"Database Management"
 			]
 		},
@@ -60,8 +64,7 @@
 			"items": [
 				"Dataset Curation & Feature Engineering",
 				"Model Evaluation (WER, Accuracy, Latency, Error)",
-				"Analytics & Visualization",
-				"Research Paper Analysis & Summarization"
+				"Analytics & Visualization"
 			]
 		},
 		{
@@ -78,7 +81,7 @@
 	"projects": [
 		{
 			"id": "emosign",
-			"title": "EmoSign – Emotion-Aware Bidirectional Sign Language Translation",
+			"title": "EmoSign - Emotion-Aware Bidirectional Sign Language Translation",
 			"type": "Mini Project | Research-Oriented System",
 			"description": "A real-time, AI-powered, bidirectional sign language translation system that supports sign-to-text/speech and speech-to-sign translation while preserving emotional context.",
 			"highlights": [
@@ -97,6 +100,31 @@
 			"image": "/assets/projects/images/project-emosign.jpg",
 			"video": "/assets/projects/videos/demo-emosign.mp4",
 			"link": "https://github.com/PSewmuthu/EmoSign"
+		},
+		{
+			"id": "motosignal-ai",
+			"title": "MotoSignal AI - Evidence-Driven Motorcycle Red-Light Analysis",
+			"type": "Computer Vision System",
+			"description": "A local-first computer vision application that detects and tracks motorcycles, checks stop-line crossings against a configurable signal timeline, and reads rear license plates with multi-frame OCR consensus. Each event is stored with its evidence and flagged for review as a suspected violation, not a violation, or insufficient evidence.",
+			"highlights": [
+				"YOLO motorcycle detection with persistent BoT-SORT tracking",
+				"Finite stop-line crossing logic checked against a verified signal-phase timeline",
+				"Multi-frame OCR consensus (PaddleOCR + EasyOCR) that abstains on weak evidence",
+				"Same-camera and conservative cross-camera event association",
+				"FastAPI backend, React dashboard, and JSON/CSV evidence exports",
+				"Dockerized deployment with GitHub Actions CI: backend tests on PRs and automated Docker image build and push"
+			],
+			"tags": [
+				"Computer Vision",
+				"YOLO",
+				"OCR",
+				"FastAPI",
+				"React",
+				"Docker",
+				"GitHub Actions"
+			],
+			"image": "/assets/projects/images/project-motosignal-ai.jpg",
+			"link": "https://github.com/PSewmuthu/motosignal-ai"
 		},
 		{
 			"id": "ai-intelligent-cctv-surveillance",
@@ -128,8 +156,32 @@
 			"image": "/assets/projects/images/project-cctv-ai-system.png"
 		},
 		{
+			"id": "ai-resume-screener",
+			"title": "AI Resume Screener - LLM-Powered Candidate Fit Analysis",
+			"type": "Generative AI Application | Recruitment Tech",
+			"description": "A Generative AI web app that helps recruiters screen resumes faster. Paste a job description, upload a batch of resumes, and get a ranked list with fit scores, plain-language summaries, matching skills, gaps, and tailored interview questions for every candidate.",
+			"highlights": [
+				"Explainable fit scoring with summary, matching skills, and gaps",
+				"Auto-generated, resume-specific interview questions",
+				"Supports .txt, .pdf, and .docx resumes in batch",
+				"Ranked results table with one-click JSON export",
+				"Built entirely on free tools (Streamlit + Groq API free tier)"
+			],
+			"tags": [
+				"Generative AI",
+				"LLM",
+				"Prompt Engineering",
+				"Streamlit",
+				"Groq API",
+				"Python"
+			],
+			"image": "/assets/projects/images/project-ai-resume-screener.jpg",
+			"live": "https://resume-screener-llm.streamlit.app/",
+			"link": "https://github.com/PSewmuthu/AI-Resume-Screener"
+		},
+		{
 			"id": "resume-parser",
-			"title": "Resume Parser – NLP-Powered Resume Information Extraction System",
+			"title": "Resume Parser - NLP-Powered Resume Information Extraction System",
 			"type": "NLP Project | Information Extraction System",
 			"description": "A sophisticated NLP-powered resume parsing system that automatically extracts and structures information from resumes in PDF, DOCX, and TXT formats into machine-readable JSON output using entity recognition, pattern matching, and intelligent text processing.",
 			"highlights": [
@@ -154,7 +206,7 @@
 		},
 		{
 			"id": "market-demand-forecast",
-			"title": "Market Demand Trend Analysis – AI-Powered Job Market Forecasting System",
+			"title": "Market Demand Trend Analysis - AI-Powered Job Market Forecasting System",
 			"type": "Data Science Project | Forecasting & Market Intelligence Platform",
 			"description": "An end-to-end data analytics and forecasting pipeline designed to identify emerging job roles, in-demand skills, and high-growth industries by combining job market data, search-interest signals, NLP processing, and time-series forecasting to support recruitment and workforce planning decisions.",
 			"highlights": [
@@ -249,7 +301,7 @@
 			"type": "Data Structures & Algorithms Project",
 			"description": "An implementation of polynomial operations such as addition and subtraction using linked lists in C, demonstrating strong fundamentals in data structures.",
 			"highlights": [
-				"Linked list–based polynomial representation",
+				"Linked list-based polynomial representation",
 				"Efficient algorithmic operations",
 				"Clear memory management",
 				"Strong DSA foundations"
@@ -263,7 +315,7 @@
 		{
 			"role": "Freelance Web Scraper",
 			"company": "Fiverr",
-			"duration": "February 2022 – January 2025",
+			"duration": "February 2022 - January 2025",
 			"description": "Worked as a freelance web scraping developer, delivering customized data extraction solutions for international clients.",
 			"achievements": [
 				"Designed automated web scraping solutions using Python",
@@ -274,7 +326,7 @@
 		{
 			"role": "Advanced Level Programme (RSLUP 2.0)",
 			"company": "Random Software Undergraduate Programme",
-			"duration": "August 2023 – April 2024",
+			"duration": "August 2023 - April 2024",
 			"description": "Pre-Internship programme focusing on full-stack system development.",
 			"achievements": [
 				"ASP.NET Core & Angular",
@@ -285,8 +337,8 @@
 		{
 			"role": "Data Science Intern",
 			"company": "Gamage Recruiters (Pvt) Ltd",
-			"duration": "May 2026 – Now",
-			"description": "Working on various individual and team data science projects, focused on building ML models and analyzing data.",
+			"duration": "May 2026 - November 2026",
+			"description": "Worked on various individual and team data science projects, focused on built ML models and analyzing data.",
 			"achievements": [
 				"Python, TensorFlow & Modern ML Frameworks",
 				"Data Pipeline Engineering & Analytics",
@@ -297,10 +349,10 @@
 	],
 	"achievements": [
 		"LeetCode 50 Days Badge 2024 (Top 6.9%)",
-		"Participant – IdeaForge Inter-University Ideathon (Team: Flefficle)",
-		"Certificate – RSLUP 2.0 Advanced Level Completion",
-		"Build an AI That Sees: Image Recognition – Google Developer Groups",
-		"Postman API Fundamentals Student Expert – Canvas Credentials (Badgr)"
+		"Participant - IdeaForge Inter-University Ideathon (Team: Flefficle)",
+		"Certificate - RSLUP 2.0 Advanced Level Completion",
+		"Build an AI That Sees: Image Recognition - Google Developer Groups",
+		"Postman API Fundamentals Student Expert - Canvas Credentials (Badgr)"
 	],
 	"career_goals": {
 		"primary": "AI Engineer specializing in Computer Vision, Multimodal AI, NLP, Robotics, Generative AI, and BCI related AI systems.",
